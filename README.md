@@ -49,4 +49,4 @@ contact@alphateamhackers.com
 
 
 ## Licence
-MIT# ath-component-boilerplate
+MIT

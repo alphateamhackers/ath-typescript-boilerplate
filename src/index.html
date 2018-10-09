@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>ATH Component Boilerplate</title>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <!--START OF External dependencies-->
+
+        <!--END OF External dependencies-->
+    </head>
+    <body>
+        <!-- The calendar will be placed in this container: -->
+        <div id="ath-component"></div>
+
+        <!--START OF External dependencies-->
+        
+        <!--END OF External dependencies-->
+
+        <!-- Load the ATH component library -->
+        <script type="text/javascript" src="/ath-component.js"></script>
+
+        <!--
+            Bootstrap the component
+            @param {string} domID The CSS selector of the component's div wrapper
+            @param {string} apiUrl Api's URL (without any slash at the end)
+        -->
+        <script>
+            window.addEventListener("load", () => {
+                window.athComponent.bootstrap({
+                    domID: "ath-component",
+                    apiUrl: "https://alphateamhackers.com"
+                });
+            })
+        </script>
+    </body>
+</html>
