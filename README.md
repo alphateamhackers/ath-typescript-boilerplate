@@ -45,7 +45,7 @@ npm run start
 
 contact@alphateamhackers.com
 
-* [Adrian Barwicki](adrianbarwicki.com)
+* [Adrian Barwicki](https://adrianbarwicki.com)
 
 
 ## Licence
