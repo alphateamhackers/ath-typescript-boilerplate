@@ -6,14 +6,13 @@ gulp.task('default', [ "build" ]);
 
 gulp.task('build', [ "clean" ], (done) => {
     runSequence("copyResources", "copyLibs", 'buildTask1', 'buildTask2', () => {
-        console.log('Success');
         done();
     });
 });
 
 gulp.task('copyResources', () => gulp
 	.src([
-		'src/**/*.{html,xml}',
+		'src/**/*.{xml,json}',
 	])
 	.pipe(gulp.dest('dist')));
 

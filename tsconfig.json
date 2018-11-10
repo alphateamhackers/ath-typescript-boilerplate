@@ -2,14 +2,15 @@
     "compilerOptions": {
       "outDir": "./dist/",
       "noImplicitAny": true,
-      "module": "es6",
+      "module": "commonjs",
       "target": "es5",
       "allowJs": true,
-      "types": [
-        "moment"
-      ],
+      "types": [],
+      "lib": [ "es2015", "dom" ],
       "typeRoots": [
         "node_modules/@types/",
       ]
-    }
+    },
+    "include": [ "src/**/*" ],
+    "exclude": [ "node_modules", "test/**/*" ]
 }

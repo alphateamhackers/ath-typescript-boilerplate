@@ -1,12 +1,12 @@
 {
-  "name": "ath-component-boilerplate",
+  "name": "ath-typescript-boilerplate",
   "version": "0.0.1",
-  "description": "Boilerplate for standalone & lightweight web component",
+  "description": "Boilerplate for standalone & lightweight typescript project",
   "author": "Alphateam Hackers GmbH",
   "homepage": "https://alphateamhackers.com",
   "scripts": {
-    "start": "npm run build && live-server dist",
-    "build": "node ./node_modules/gulp/bin/gulp.js && node ./node_modules/webpack/bin/webpack.js"
+    "start": "npm run build && node ./dist/index.js",
+    "build": "node ./node_modules/gulp/bin/gulp.js && node ./node_modules/typescript/bin/tsc"
   },
   "engines": {
     "npm": ">=3.0.0"
@@ -17,34 +17,16 @@
     "sweetalert2": "^7.28.4"
   },
   "devDependencies": {
-    "@types/bluebird": "^3.5.24",
-    "@types/core-js": "^0.9.36",
-    "@types/moment": "^2.13.0",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "css-loader": "^1.0.0",
-    "eslint": "^5.3.0",
-    "express": "^4.16.3",
     "gulp": "^3.9.1",
-    "gulp-babel": "^7.0.1",
     "gulp-clean": "^0.4.0",
     "gulp-clean-css": "^3.10.0",
     "gulp-concat-css": "^3.1.0",
     "gulp-copy": "^1.1.0",
     "gulp-less": "^4.0.1",
-    "less-loader": "^4.1.0",
-    "moment": "^2.22.2",
     "run-sequence": "^2.2.1",
     "style-loader": "^0.22.1",
     "ts-loader": "^4.4.2",
-    "typescript": "^3.0.1",
-    "typings": "^2.1.1",
-    "uglifyjs-webpack-plugin": "^2.0.0",
-    "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0"
+    "typescript": "^3.0.1"
   },
   "babel": {
     "presets": [

@@ -1,8 +1,7 @@
-# Boilerplate for standalone & lightweight web component
+# Boilerplate for standalone & lightweight typescript component
 
 ## Intro
-This repository contains a minimal set of code required to create your own web component. It does not depend on any frameworks.
-One example can be found in /ExampleComponent.ts.
+This repository contains a minimal set of code required to create your own typescript application. It does not depend on any frameworks. No global dependencies are required!
 
 ## Install
 ```
@@ -16,34 +15,13 @@ npm run build
 ```
 
 ## Running
-This script will build and run the server. 
+This script will build and run the application. 
 ```
 npm run start
 ```
 
-## Example Integration
-```html
-<html>
-    <head>
-    <title></title>
-    </head>
-    <body> 
-        <div id="ath-component"></div>
-
-        <script type="text/javascript" src="./ath-component.js">
-            window.athComponent.bootstrap({
-                domID: "ath-component",
-                apiUrl: "https://alphateamhackers.com"
-            })
-        </script>
-    </body>
-</html>
-```
-
 ## Developers
 * [Alphateam Hackers GmbH](https://alphateamhackers.com)
-
-contact@alphateamhackers.com
 
 * [Adrian Barwicki](https://adrianbarwicki.com)
 
