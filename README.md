@@ -1,4 +1,4 @@
-# Boilerplate for standalone & lightweight typescript component
+# Boilerplate for standalone & lightweight typescript application
 
 ## Intro
 This repository contains a minimal set of code required to create your own typescript application. It does not depend on any frameworks. No global dependencies are required!
